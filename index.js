@@ -7,6 +7,8 @@ botao.addEventListener('click', ()=>{
 
     criar(email.value, nome.value)
     console.log("naada")
+    email.value= ""
+    nome.value = ""
 
 })
 
