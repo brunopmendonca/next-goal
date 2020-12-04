@@ -3,7 +3,7 @@ var firebaseConfig = {
     authDomain: "next-goal-79fe3.firebaseapp.com",
     projectId: "next-goal-79fe3",
     storageBucket: "next-goal-79fe3.appspot.com",
-    databaseURL: "",
+    databaseURL: "https://next-goal-79fe3-default-rtdb.firebaseio.com/",
     messagingSenderId: "977486983157",
     appId: "1:977486983157:web:86d0469341ab6dc69bbabc",
     measurementId: "G-TZJMP4MZBP"
