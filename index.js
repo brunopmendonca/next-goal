@@ -14,7 +14,7 @@ let verificaçaoNome = nome.value.length
 if(verificaçaoNome > 1 ){
     nomeD = nome.value
     verificadorN.innerHTML="nome valido"
-    nome.style.borderColor = "#FF0F0F"
+    nome.style.borderColor = "green"
     
 }
    
@@ -33,7 +33,7 @@ email.addEventListener('input',()=>{
  if(verificaçaoEmail > -1 ){
      emailD = email.value
      verificadorE.innerHTML="Email valido"
-     email.style.borderColor = "#FF0F0F"
+     email.style.borderColor = "green"
  }
     
  if(verificaçaoEmail <= -1){
