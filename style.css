@@ -1,12 +1,8 @@
 
 .formulario{
 
-    background-color: brown;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 18%;
+   
+  margin: 20px;
+    width: 90%;
     
 }
