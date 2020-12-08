@@ -1,4 +1,53 @@
 
+
+.tela1{
+
+  display: flex;
+  background-color: #121217;
+  height: 100vh;
+
+}
+
+.esquerda{
+  background-color: greenyellow;
+  width: 100%;
+}
+
+
+.iconi{
+  margin: 20px;
+}
+
+
+.texto1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 200px;
+  color: white;
+}
+
+.texto2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ margin-top: 100px;
+  font-size: 20px;
+  color: white;
+  
+}
+
+.direita{
+  display: flex;
+  width: 100%;
+  background-color: teal;
+}
+
+
+
+
+
 .formulario{
 
    
