@@ -1,6 +1,7 @@
 
 body{
   background-color: #121217;
+  border-top: #6842C2 20px;
   ;
 }
 
@@ -46,6 +47,10 @@ body{
   }
 }
 
+.faixa1{
+  background-color: #6842C2;
+}
+
 .tela1{
 
   display: flex;
@@ -62,7 +67,7 @@ body{
 
 .iconi{
   margin: 50px;
-  width: 200px;
+  width: 150px;
 }
 
 
@@ -70,7 +75,7 @@ body{
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 200px;
   color: white;
 }
@@ -81,7 +86,7 @@ body{
   margin: 0 auto;
   text-align: center;
   max-width: 80%;
-  margin-top: 100px;
+  margin-top: 0px;
   font-size: 20px;
   color: white;
   
@@ -110,6 +115,7 @@ body{
   width: 500px;
   height: 500px;
   border-radius: 50%;
+  border-color: white;
  
 }
 
@@ -121,6 +127,14 @@ body{
   background-color: #14141B;
   height: 80px;
   margin-bottom: 20px;
+}
+
+.linha{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 250px;
+  background-color: #9871F5 ;
 }
 
 .titulos2{
@@ -157,6 +171,7 @@ body{
   padding-top: 140px;
   justify-content: space-around;
   color: white;
+  font-size: 70px;
 }
 
 .cards{
