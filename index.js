@@ -1,5 +1,6 @@
 const email = document.getElementById('email')
 const nome = document.getElementById('nome')
+const company = document.getElementById('company')
 const botao = document.getElementById('botao')
 const verificadorN = document.getElementById('verificadorN')
 const verificadorE = document.getElementById('verificadorE')
@@ -49,10 +50,11 @@ console.log(emailD)
 botao.addEventListener('click', ()=>{
  
    
-        criar(emailD, nomeD)
+        criar(emailD, nomeD, company)
         console.log("naada")
         email.value= ""
         nome.value = ""
+        // company.value = " "
         email.style.borderColor = ""
         verificadorE.innerHTML=""
         verificadorN.innerHTML=""
@@ -63,7 +65,7 @@ botao.addEventListener('click', ()=>{
    
 })
 
-function criar(nome, email){
+function criar(nome, email,){
     let data= {
         nomeD:nome,
         emailD:email

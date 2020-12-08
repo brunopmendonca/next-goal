@@ -1,4 +1,31 @@
 
+body{
+  background-color: #121217;
+  ;
+}
+
+@media(max-width: 800px){
+  .direita{
+    display: none;
+    max-width: 800px
+  }
+
+  .iconis2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario{
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .tela1{
 
@@ -9,7 +36,7 @@
 }
 
 .esquerda{
-  background-color: greenyellow;
+  background-color: #121217;
   width: 100%;
 }
 
@@ -29,29 +56,120 @@
 }
 
 .texto2{
+  background-color:#121217;
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
   text-align: center;
- margin-top: 100px;
+  max-width: 80%;
+  margin-top: 100px;
   font-size: 20px;
   color: white;
   
 }
 
 .direita{
-  display: flex;
+  /* background-image: url("iconis/sombra.png"); */
+  /* background-repeat: no-repeat ; */
+  /* display: flex; */
+  margin-top: 140px;
+  align-items: center;
   width: 100%;
-  background-color: teal;
+  
+}
+
+.sombra{
+  width: 400px;
 }
 
 
+.circulo{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  background-color:#9871F5;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+ 
+}
 
+.circulo img{
+  margin: 0 auto;
+}
 
+.faixa{
+  background-color: #14141B;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.titulos2{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+  color: white;
+  font-size: 26px;
+}
+
+.iconis2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  color: white;
+  
+}
+
+.iconis2 hr{
+  background-color: aqua;
+}
+
+.iconi-c{
+  margin-top: 80px;
+}
+
+.tela3{
+  background-color: #14141B;;
+  height: auto;
+}
+
+.tela3 h1{
+  display: flex;
+  padding-top: 140px;
+  justify-content: space-around;
+  color: white;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.card1{
+  background-color:#04D361;
+  ;
+}
+
+.card2{
+  background-color: #9871F5;
+  ;
+}
+
+.card3{
+  background-color: #6842C2;
+  ;
+  ;
+}
+
+.tela4{
+  background-color: #6842C2;
+  ;
+}
 
 .formulario{
 
-   
-  margin: 20px;
-    width: 90%;
+  display: flex;
+  justify-content: space-around;
     
 }
