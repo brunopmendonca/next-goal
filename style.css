@@ -10,10 +10,27 @@ body{
     max-width: 800px
   }
 
+  .iconi{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
   .iconis2{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+   
+  }
+
+  .iconi-c{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
   }
 
   .cards{
@@ -44,7 +61,8 @@ body{
 
 
 .iconi{
-  margin: 20px;
+  margin: 50px;
+  width: 200px;
 }
 
 
