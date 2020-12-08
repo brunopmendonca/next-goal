@@ -77,7 +77,7 @@ body{
   justify-content: center;
   text-align: center;
   font-size: 50px;
-  margin-top: 170px;
+  margin-top: 120px;
   color: white;
 }
 
@@ -114,6 +114,7 @@ body{
   height: 500px;
   border-radius: 50%;
   border-color: white;
+  padding-bottom: 50px;
  
 }
 
