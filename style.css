@@ -17,8 +17,10 @@ body{
   }
 
   .cards{
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
+    width: 80%;
   }
 
   .formulario{
@@ -144,21 +146,22 @@ body{
   justify-content: space-around;
   padding-top: 150px;
   padding-bottom: 100px;
+  
 }
 
 .card1{
   background-color:#04D361;
-  ;
+  max-width: 93%;
 }
 
 .card2{
   background-color: #9871F5;
-  ;
+  max-width: 93%
 }
 
 .card3{
   background-color: #6842C2;
-  ;
+  max-width: 93%
   ;
 }
 
