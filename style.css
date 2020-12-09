@@ -108,18 +108,23 @@ body{
 .circulo{
   display: flex;
   margin: 0 auto;
-  align-items: center;
+  align-items: center; 
   background-color:#9871F5;
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
-  border-color: white;
-  padding-bottom: 50px;
+  box-shadow: 20px 20px 5px #4d4545;
+  border-color: black;
+  /* border-radius: 10px; */
+  /* padding-bottom: px; */
  
 }
 
 .circulo img{
   margin: 0 auto;
+  width: 240px;
+  height: 240px;
+
 }
 
 .faixa{
@@ -190,17 +195,22 @@ body{
 .card1{
   background-color:#04D361;
   max-width: 93%;
-}
+  box-shadow: 10px 10px 0px #413d3d;
+  border-radius: 25px;
+ }  
 
 .card2{
   background-color: #9871F5;
-  max-width: 93%
+  max-width: 93%;
+  box-shadow: 10px 10px 0px #413d3d;
+  border-radius: 25px;
 }
 
 .card3{
   background-color: #6842C2;
-  max-width: 93%
-  ;
+  max-width: 93%;
+  box-shadow: 10px 10px 0px #413d3d;
+  border-radius: 25px;
 }
 
 .tela4{
