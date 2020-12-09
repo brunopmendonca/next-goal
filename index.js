@@ -6,6 +6,7 @@ const verificadorN = document.getElementById('verificadorN')
 const verificadorE = document.getElementById('verificadorE')
 let emailD
 let nomeD
+let companyD
 
 nome.addEventListener('input',()=>{
 
@@ -46,15 +47,34 @@ email.addEventListener('input',()=>{
 console.log(emailD)
 })
 
+company.addEventListener('input',()=>{
+
+    let verificaçaoCompany = company.value.length
+     
+         
+    if(verificaçaoCompany > 1 ){
+        companyD = company.value
+        company.style.borderColor = "green"
+        
+    }
+       
+    if(verificaçaoCompany < 1){
+        companyD = ""
+        company.style.borderColor = ""
+    }
+    console.log(CompanyD)
+    })
+
 
 botao.addEventListener('click', ()=>{
  
    
-        criar(emailD, nomeD, company)
+        criar(emailD, nomeD, companyD)
         console.log("naada")
         email.value= ""
         nome.value = ""
-        // company.value = " "
+        company.value = " "
+        company.style.borderColor = ""
         email.style.borderColor = ""
         verificadorE.innerHTML=""
         verificadorN.innerHTML=""
@@ -65,10 +85,11 @@ botao.addEventListener('click', ()=>{
    
 })
 
-function criar(nome, email,){
+function criar(nome, email,company){
     let data= {
-        nomeD:nome,
-        emailD:email
+        nome:nome,
+        email:email,
+        company: company
 
     }
 
