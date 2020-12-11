@@ -29,6 +29,7 @@ body{
    
    margin-bottom: 50px;
    display: flex;
+   max-width: 80%;
    justify-content: center;
    align-items: center;
    flex-direction: column;
@@ -48,10 +49,32 @@ body{
   }
 }
 
-.faixa1{
-  background-color: #9871F5;
-  height: 15px;
+
+.logo{
+  display: flex;
+  font-size: 70px;
+  color: white;
+  width: auto;
+  margin-top: 0px;
 }
+
+
+
+.faixa1{
+  margin: 0 auto;
+  width: 340px;
+  margin-top: 6px;
+  background-color: #9871F5;
+  height: 3px;
+}
+
+.faixa2{
+  margin: 0 auto;
+  width: 340px;
+  background-color: #9871F5;
+  height: 2px;
+}
+
 
 .tela1{
 
@@ -134,6 +157,12 @@ body{
   margin-bottom: 20px;
 }
 
+.faixaP{
+  background-color: rgba(12, 12, 17, 0.849);
+  height: 80px;
+ 
+}
+
 .tela2{
   margin-top: 50px;
 }
@@ -173,6 +202,7 @@ body{
   background-color: rgba(56, 54, 54, 0.26);
   display: flex;
   justify-content: center;
+  width: 400px;
   align-items: center;
   flex-direction: column;
   border-radius: 25px;
@@ -243,7 +273,13 @@ body{
     
 }
 
+.tit1{
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
 .entrada{
+  padding: 2px;
   border-radius: 10px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.527);
 }
